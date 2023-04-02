@@ -19,26 +19,3 @@ module.exports = {
   },
 };
 
-
-
-
-
-
-// const BasePage = require('./basePage');
-
-// class LogoutPage extends BasePage {
-//   constructor(page) {
-//     super(page);
-//   }
-
-//   async logout() {
-//     await this.page.waitForSelector('#react-burger-menu-btn');
-//     await this.page.click('#react-burger-menu-btn');
-//     await this.page.waitForTimeout(1000);
-//     await this.page.waitForSelector('#logout_sidebar_link');
-//     const logoutButton = await this.page.$('#logout_sidebar_link');
-//     await logoutButton.click();
-//   }
-// }
-
-// module.exports = LogoutPage;
